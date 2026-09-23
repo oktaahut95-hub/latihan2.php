@@ -1,20 +1,30 @@
+php
 <?php
-    $destination="Tokyo";
-    switch($destination){
-        case "Las Vegas":
-            echo "Bring an extra $500";
-            break;
-        case "Amsterdam":
-            echo "Bring an open mind";
-            break;
-        case "Egypt":
-            echo "Bring 15 bottles of SPF 50 Sunscreen";
-            break;
-        case "Tokyo":
-            echo "Bring lots of money";
-            break;
-        case "Caribbean Islands":
-            echo "Bring a swimsuit";
-            break;
-    }
+
+$angka = [];
+$angka[0] = 10;
+$angka[1] = 20;
+$angka[2] = 30;
+$angka[3] = 40;
+
+$jumlah = count($angka);
+print "Jumlah array angka = $jumlah<br>";
+// variabel $jumlah akan bernilai 4
+
+$produk = [];
+$produk["makanan"] = "Nasi Goreng";
+$produk["minuman"] = "Es Teh";
+$produk["snack"] = "Kentang Goreng";
+$produk["dessert"] = "Puding";
+$produk["buah"] = "Apel";
+
+$jumlah = sizeof($produk);
+print "Jumlah array produk = $jumlah<br>";
+// variabel $jumlah akan bernilai 5
+
 ?>
+
+Output:
+text
+Jumlah array angka = 4
+Jumlah array produk = 5
